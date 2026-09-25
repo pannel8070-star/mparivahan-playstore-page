@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "mparivahan-official"
+  },
+  "targets": {
+    "mparivahan-official": {
+      "hosting": {
+        "mparivahan-official": [
+          "mparivahan-official"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

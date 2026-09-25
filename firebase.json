@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "target": "mparivahan-official",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
