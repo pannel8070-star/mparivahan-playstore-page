@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mParivahan - Play Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Top Google Play Bar -->
+    <div class="playstore-header">
+        <div class="play-logo">
+            <span class="g-play">Google Play</span>
+        </div>
+        <div class="search-container">
+            <span class="search-icon">&#128269;</span>
+            <input type="text" placeholder="Search for apps & games" class="search-input">
+        </div>
+        <div class="profile-avatar">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="#5f6368">
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- App Header Section -->
+    <header class="app-header">
+        <div class="app-header-top">
+            <img src="assets/app-icon.png" alt="App Icon" class="app-icon">
+            <div class="app-info">
+                <h1 class="app-title">NextGen mParivahan</h1>
+                <p class="developer-name">National Informatics Centre. <br> <span class="in-app">In-app purchases</span></p>
+            </div>
+        </div>
+        
+        <!-- Stats Row (From Reference SS) -->
+        <div class="stats-row">
+            <div class="stat-item">
+                <span class="stat-value">3.7 ★</span>
+                <span class="stat-label">725K reviews</span>
+            </div>
+            <div class="divider"></div>
+            <div class="stat-item">
+                <span class="stat-value">3+</span>
+                <span class="stat-label">Rated for 3+</span>
+            </div>
+            <div class="divider"></div>
+            <div class="stat-item">
+                <span class="stat-value">50M+</span>
+                <span class="stat-label">Downloads</span>
+            </div>
+        </div>
+
+        <!-- Install Button -->
+        <button class="install-btn" onclick="window.location.href='assets/mParivahan.apk'">
+            Install
+        </button>
+        <button class="share-btn">
+            <span>&#x2197;</span> Share
+        </button>
+    </header>
+
+    <!-- This app is available for your device -->
+    <div class="device-available">
+        <span>&#128241;</span> This app is available for your device
+    </div>
+
+    <!-- Screenshots Carousel -->
+    <section class="screenshots-section">
+        <div class="screenshots-container">
+            <img src="assets/ss1.png" alt="Screenshot 1" class="screenshot-img">
+            <img src="assets/ss2.png" alt="Screenshot 2" class="screenshot-img">
+            <img src="assets/ss3.png" alt="Screenshot 3" class="screenshot-img">
+        </div>
+    </section>
+
+    <!-- What's New Section -->
+    <section class="whats-new-section">
+        <h2>What's new</h2>
+        <p>We've made several improvements to make your experience smoother! Enjoy faster document verification, enhanced security, and a refreshed UI. We are constantly working to bring you the best experience.</p>
+    </section>
+
+    <!-- Data Safety Section -->
+    <section class="safety-section">
+        <div class="section-header">
+            <h2>Data safety</h2>
+            <span class="arrow">&#8594;</span>
+        </div>
+        <p class="safety-text">Safety starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region, and age.</p>
+        
+        <div class="safety-item">
+            <span class="icon">&#128279;</span>
+            <div>
+                <p class="safety-title">This app may share these data types with third parties</p>
+                <p class="safety-desc">Location, Personal info and 3 others</p>
+            </div>
+        </div>
+        <div class="safety-item">
+            <span class="icon">&#128274;</span>
+            <div>
+                <p class="safety-title">Data is encrypted in transit</p>
+            </div>
+        </div>
+        <div class="safety-item">
+            <span class="icon">&#128465;</span>
+            <div>
+                <p class="safety-title">You can request that data be deleted</p>
+            </div>
+        </div>
+        <a href="#" class="see-details">See details</a>
+    </section>
+
+    <!-- Rate This App Section -->
+    <section class="rate-app-section">
+        <h2>Rate this app</h2>
+        <p>Tell others what you think.</p>
+        <div class="rate-tabs">
+            <span class="active-tab">&#128241; Phone</span>
+        </div>
+        <div class="star-rating">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+        </div>
+        <button class="write-review-btn">Write a review</button>
+    </section>
+
+    <!-- Ratings and Reviews Section -->
+    <section class="reviews-section">
+        <div class="section-header">
+            <h2>Ratings and reviews</h2>
+            <span class="arrow">&#8594;</span>
+        </div>
+        <p class="verified-text">Ratings and reviews are verified <span>&#9432;</span></p>
+
+        <div class="review-tabs">
+            <span class="active-tab">&#128241; Phone</span>
+            <span class="inactive-tab">&#128421; Desktop</span>
+            <span class="inactive-tab">&#128218; Tablet</span>
+        </div>
+
+        <!-- Overall Rating Bar Chart -->
+        <div class="overall-rating">
+            <div class="big-score">
+                <span class="score">3.7</span>
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <span class="total-reviews">725K reviews</span>
+            </div>
+            <div class="rating-bars">
+                <div class="bar-row"><span>5</span> <div class="bar"><div class="fill" style="width: 60%;"></div></div></div>
+                <div class="bar-row"><span>4</span> <div class="bar"><div class="fill" style="width: 20%;"></div></div></div>
+                <div class="bar-row"><span>3</span> <div class="bar"><div class="fill" style="width: 10%;"></div></div></div>
+                <div class="bar-row"><span>2</span> <div class="bar"><div class="fill" style="width: 5%;"></div></div></div>
+                <div class="bar-row"><span>1</span> <div class="bar"><div class="fill" style="width: 5%;"></div></div></div>
+            </div>
+        </div>
+
+        <!-- Review 1 (Prasheek Pawar) -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #7b1fa2;">P</div>
+                <div class="reviewer-details">
+                    <h4>Prasheek Pawar</h4>
+                    <p class="review-date">July 20, 2026</p>
+                </div>
+                <span class="menu-dots">&#8942;</span>
+            </div>
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+                great app for online documents verification which adds convenience for people who can't keep original documents with them since it's government verified.
+            </p>
+            <p class="helpful-text">1,245 people found this review helpful</p>
+            <div class="helpful-buttons">
+                <span>Did you find this helpful?</span>
+                <button class="yes-btn">Yes</button>
+                <button class="no-btn">No</button>
+            </div>
+        </div>
+
+        <!-- Review 2 (Harshil Karani) -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #d32f2f;">H</div>
+                <div class="reviewer-details">
+                    <h4>Harshil Karani</h4>
+                    <p class="review-date">September 16, 2026</p>
+                </div>
+                <span class="menu-dots">&#8942;</span>
+            </div>
+            <div class="review-stars">&#9733;&#9734;&#9734;&#9734;&#9734;</div>
+            <p class="review-text">
+                Not working, every time I login it says unexpected error or says you are logging in from different device. Doesn't work when you need it the most. tried reinstalling too still doesn't work. cleared cache too. It worked well in the past but now it just doesn't. I wrote that I already reinstalled and tried clearing cache. still same auto reply.
+            </p>
+            <p class="helpful-text">890 people found this review helpful</p>
+            <div class="helpful-buttons">
+                <span>Did you find this helpful?</span>
+                <button class="yes-btn">Yes</button>
+                <button class="no-btn">No</button>
+            </div>
+        </div>
+
+        <!-- Review 3 (Bharat Sain) -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #1976d2;">B</div>
+                <div class="reviewer-details">
+                    <h4>Bharat Sain</h4>
+                    <p class="review-date">August 2, 2026</p>
+                </div>
+                <span class="menu-dots">&#8942;</span>
+            </div>
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+            <p class="review-text">
+                application is best but 1 problem is never search details many time please update
+            </p>
+            <p class="helpful-text">512 people found this review helpful</p>
+            <div class="helpful-buttons">
+                <span>Did you find this helpful?</span>
+                <button class="yes-btn">Yes</button>
+                <button class="no-btn">No</button>
+            </div>
+        </div>
+        
+        <a href="#" class="see-all-reviews">See all reviews</a>
+    </section>
+
+    <!-- App Support & About (Bottom) -->
+    <section class="about-section">
+        <div class="section-header">
+            <h2>About this app</h2>
+            <span class="arrow">&#8594;</span>
+        </div>
+        <p class="app-description">
+            mParivahan is the official digital vehicle & license management app. It provides a comprehensive solution for storing your driving license, registration certificate (RC), and other vehicle-related documents digitally. It ensures legally valid documentation and seamless verification for citizens.
+        </p>
+        <p class="updated-on">Updated on <br> Sep 18, 2026</p>
+        <div class="tags">
+            <span class="tag">#1 top grossing tools</span>
+            <span class="tag">Tools</span>
+        </div>
+        <div class="app-support">
+            <h3>App support</h3>
+            <span class="arrow">&#8595;</span>
+        </div>
+    </section>
+
+    <div class="flag-section">
+        <span>&#9873;</span> Flag as inappropriate
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
